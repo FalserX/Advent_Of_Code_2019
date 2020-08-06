@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wmale\\Desktop\\AOC2019\\AdventCode2019_1\\AdventCode2019_1.csproj",
+      "projectUniqueName": "C:\\Users\\wmale\\Desktop\\AOC2019\\AOC2019\\AdventCode2019_1\\AdventCode2019_1.csproj",
       "projectName": "AdventCode2019_1",
-      "projectPath": "C:\\Users\\wmale\\Desktop\\AOC2019\\AdventCode2019_1\\AdventCode2019_1.csproj",
+      "projectPath": "C:\\Users\\wmale\\Desktop\\AOC2019\\AOC2019\\AdventCode2019_1\\AdventCode2019_1.csproj",
       "packagesPath": "C:\\Users\\wmale\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wmale\\Desktop\\AOC2019\\AdventCode2019_1\\obj\\",
+      "outputPath": "C:\\Users\\wmale\\Desktop\\AOC2019\\AOC2019\\AdventCode2019_1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
