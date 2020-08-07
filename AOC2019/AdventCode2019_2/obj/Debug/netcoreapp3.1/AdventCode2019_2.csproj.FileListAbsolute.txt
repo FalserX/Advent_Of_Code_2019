@@ -1,0 +1,13 @@
+C:\Users\wmale\Desktop\AOC2019\AOC2019\AdventCode2019_2\bin\Debug\netcoreapp3.1\AdventCode2019_2.exe
+C:\Users\wmale\Desktop\AOC2019\AOC2019\AdventCode2019_2\bin\Debug\netcoreapp3.1\AdventCode2019_2.deps.json
+C:\Users\wmale\Desktop\AOC2019\AOC2019\AdventCode2019_2\bin\Debug\netcoreapp3.1\AdventCode2019_2.runtimeconfig.json
+C:\Users\wmale\Desktop\AOC2019\AOC2019\AdventCode2019_2\bin\Debug\netcoreapp3.1\AdventCode2019_2.runtimeconfig.dev.json
+C:\Users\wmale\Desktop\AOC2019\AOC2019\AdventCode2019_2\bin\Debug\netcoreapp3.1\AdventCode2019_2.dll
+C:\Users\wmale\Desktop\AOC2019\AOC2019\AdventCode2019_2\bin\Debug\netcoreapp3.1\AdventCode2019_2.pdb
+C:\Users\wmale\Desktop\AOC2019\AOC2019\AdventCode2019_2\obj\Debug\netcoreapp3.1\AdventCode2019_2.csprojAssemblyReference.cache
+C:\Users\wmale\Desktop\AOC2019\AOC2019\AdventCode2019_2\obj\Debug\netcoreapp3.1\AdventCode2019_2.AssemblyInfoInputs.cache
+C:\Users\wmale\Desktop\AOC2019\AOC2019\AdventCode2019_2\obj\Debug\netcoreapp3.1\AdventCode2019_2.AssemblyInfo.cs
+C:\Users\wmale\Desktop\AOC2019\AOC2019\AdventCode2019_2\obj\Debug\netcoreapp3.1\AdventCode2019_2.csproj.CoreCompileInputs.cache
+C:\Users\wmale\Desktop\AOC2019\AOC2019\AdventCode2019_2\obj\Debug\netcoreapp3.1\AdventCode2019_2.dll
+C:\Users\wmale\Desktop\AOC2019\AOC2019\AdventCode2019_2\obj\Debug\netcoreapp3.1\AdventCode2019_2.pdb
+C:\Users\wmale\Desktop\AOC2019\AOC2019\AdventCode2019_2\obj\Debug\netcoreapp3.1\AdventCode2019_2.genruntimeconfig.cache
