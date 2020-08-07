@@ -6,7 +6,6 @@ namespace AdventCode2019_1
     {
         static string[] strDataSplit; //The array of data from a text file.
         static int[] iDataSplitConvert; //The array of data convert from strDataSplit.
-        static int[] iDataRequired; //The array of data from which what is required and not the total.
         /// <summary>
         /// Method master from the program
         /// </summary>
@@ -16,7 +15,7 @@ namespace AdventCode2019_1
             FileManager m_fm = new FileManager();
             string m_strGetRoot = m_fm.GetAppRoot("Program.cs");
             m_strGetRoot = m_strGetRoot.Split("Program.cs")[0];
-            strDataSplit = m_fm.PopulateArrayOfData(m_strGetRoot + @"\input1_2.txt");
+            strDataSplit = m_fm.PopulateArrayOfData(m_strGetRoot + @"\input.txt");
             iDataSplitConvert = new int[strDataSplit.Length];
             try
             {
@@ -25,7 +24,8 @@ namespace AdventCode2019_1
                     iDataSplitConvert[i] = int.Parse(strDataSplit[i]);
                 }
 
-                Console.WriteLine(SumOfData(iDataSplitConvert));
+                Console.WriteLine("Part 1: " +SumOfData(iDataSplitConvert));
+                Console.WriteLine("Part 2: " + RecurSumOfData(iDataSplitConvert));
             }
             catch(Exception m_e)
             {
@@ -46,15 +46,39 @@ namespace AdventCode2019_1
             }
             return m_sum;
         }
-        
+
+        /// <summary>
+        /// Method that calculate the result of all the cell data from a text file.
+        /// </summary>
+        /// <param name="p_iData">The data of cells in a integer array</param>
+        /// <returns>The sum of all cells</returns>
         static int RecurSumOfData(int[] p_iData)
         {
-            return 0;
+            int m_sum = 0;
+            for(int i = 0; i < p_iData.Length;i++)
+            {
+                p_iData[i] = PrecurSumOfData(p_iData[i]);
+            }
+            for (int i = 0; i < p_iData.Length;i++)
+            {
+                m_sum += p_iData[i];
+            }
+            return m_sum;
         }
-
-        static private int _RecurSumOfData(int p_d)
+        /// <summary>
+        /// Method that can calculate the sum of each data in array (Recursive formula)
+        /// </summary>
+        /// <param name="p_data">The cell that contains the data</param>
+        /// <returns>The sum of the data cell (Result of recursive)</returns>
+        private static int PrecurSumOfData(int p_data)
         {
-            return 0;
+            int p_dataDivide = (p_data / 3) - 2;
+            int p_sum = 0;
+            if (p_dataDivide > 0)
+            {
+                p_sum += p_dataDivide + PrecurSumOfData(p_dataDivide);
+            }
+            return p_sum;    
         }
     }
 }
